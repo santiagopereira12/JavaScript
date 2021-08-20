@@ -1,0 +1,18 @@
+variables.
+string = 'cadena de texto' "" 
+number = 45
+booleano = true o false
+
+undefined = es una variable que no tiene valor
+null = es una variable vacia
+Nan = operación que no es un numero
+
+declaración de variables...
+(scope)
+var =
+let = limita el alcance de la variable
+const = no pueden cambiar su valor
+
+prompt = es una variable que almacena un dato dado
+
+Operadores en JavaScript.
