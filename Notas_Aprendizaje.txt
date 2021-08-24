@@ -16,3 +16,24 @@ const = no pueden cambiar su valor
 prompt = es una variable que almacena un dato dado
 
 Operadores en JavaScript.
+Aritmeticos. 
+son aquellos que toman valores numericos, ya sean variable
+o literales y rfetornan a un valor unico
+
+Asignación.
+asigna un valor operando de la izquierda basado en el valor
+operando de la derecha
+
+
+Concatenación.
+es unir strings.
+para realiar concatenación en numeros, se debe generar una
+cadena de texto EJ: frases = "" + num1 + num2.
+'concat()' es un metodo de cadena, por esa razon es 
+necesario que halla un string
+
+Backtikcs.
+es la form a de declaración de una variable en un string
+se pueden identificar de la siguiente manera ``,
+y permiten la concatenación dentro del texto sin necesidad
+de darle cierre
