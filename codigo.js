@@ -9,3 +9,19 @@ alert(apellido2);
 
 let respuesta = prompt("como te encuentras");
 alert(respuesta + " ah pa saber.");
+
+let numero = 15;
+numero += 5;
+document.write(numero);
+
+saludo = "¡hola mundo!";
+pregunta = "¿como te tratan?";
+frase = saludo + pregunta;
+document.write(frase);
+numero1 = "9";
+numero2 = 3;
+union = numero1.concat(numero2);
+document.write(union);
+
+oracion = `soy ${nombres} y esta es mi primera pagina`;
+document.write(oracion);
