@@ -8,7 +8,7 @@ alert(apellido1);
 alert(apellido2);
 
 let respuesta = prompt("como te encuentras");
-alert(respuesta + " ah pa saber.");
+alert(respuesta + ", ah pa saber.");
 
 let numero = 15;
 numero += 5;
@@ -23,5 +23,17 @@ numero2 = 3;
 union = numero1.concat(numero2);
 document.write(union);
 
-oracion = `soy ${nombres} y esta es mi primera pagina`;
+oracion = `, soy ${nombres} y esta es mi primera pagina, `;
 document.write(oracion);
+
+let valor1 = true;
+let valor2 = true;
+let comparacion = numero == numero1;
+let comparation = true;
+document.write(comparacion);
+document.write(comparation);
+
+person = "Cristian mamahuevo";
+if (person == "Cristian"){
+    alert("la concha de tu madre pibe");
+}

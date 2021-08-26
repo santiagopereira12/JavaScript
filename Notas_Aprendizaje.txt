@@ -33,7 +33,28 @@ cadena de texto EJ: frases = "" + num1 + num2.
 necesario que halla un string
 
 Backtikcs.
-es la form a de declaración de una variable en un string
+es la forma de declaración de una variable en un string
 se pueden identificar de la siguiente manera ``,
 y permiten la concatenación dentro del texto sin necesidad
 de darle cierre
+
+Operadores.
+operadores de comparación...
+representa un valor y lo redtorna a un valor boolean 
+comparando retornandolo a un valor bolleano
+operadores logicos...
+nos devuelven aL resultado a partir del cumplimiento 
+de una condición el resultado es boolean y sus 
+operandos son valores logicos o se asimilan a ellos
+
+Camel case.
+es la manera en la que se escribe o se diferencian las
+palabras e una oración con vartias palabras juntas 
+diferenciando por mayusculas, donde la primera palabra
+esta en minuscula y la segunda se empieza en mayuscula
+por ejemplo "holaMundo".
+
+Condicionales.
+es una sentencia que nos permite la validacion de una
+variable u operación en forma de comparación, que se
+realiza entre bloques.
