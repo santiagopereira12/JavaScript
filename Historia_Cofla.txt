@@ -1,0 +1,21 @@
+historia de cofla.
+un ejercicio a realizar al final de cada uno de los cursos.
+helados.
+
+cofla = 1500 pesos
+cristian = 1700 pesos
+santiago = 3000 pesos
+
+1. helado de agua 600 pesos.
+2. helado de crema 1000 pesos.
+3. helado de vainilla 1600 pesos.
+4. helado de chocolate 1700 pesos.
+5. helado de fresa 1800 pesos.
+6. helado de browni 2900 pesos.
+7. helado de oreo 2900 pesos.
+
+Problema...
+1. pedirles que ingresen el monton que tienen y mostrarles
+el helado que pueden comprar.
+2. si hay 2 o más con el mismo precio, mostrar ambos.
+3. cofla quiere saber cuanto le sobra.

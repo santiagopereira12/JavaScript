@@ -33,7 +33,11 @@ let comparation = true;
 document.write(comparacion);
 document.write(comparation);
 
-person = "Cristian mamahuevo";
+person = "Mamahuevo";
 if (person == "Cristian"){
     alert("la concha de tu madre pibe");
+}else if (person == "Santi"){
+    alert("puro nombre de campeon");
+}else{
+    alert("qa ver pendejo que nombre tan cacorro");
 }
