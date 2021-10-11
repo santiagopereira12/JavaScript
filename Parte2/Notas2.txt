@@ -1,0 +1,4 @@
+Arrays.
+es una variable que puede guardar varios datos.
+arrays asociativos...
+(letra en ngrilla con las etiquetas <b></b>, saltos de linea con <br>)
