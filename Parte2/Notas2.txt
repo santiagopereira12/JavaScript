@@ -1,4 +1,16 @@
 Arrays.
 es una variable que puede guardar varios datos.
 arrays asociativos...
-(letra en ngrilla con las etiquetas <b></b>, saltos de linea con <br>)
+(letra en negrilla con las etiquetas <b></b>, saltos de linea con <br>)
+
+Bucles e Interaciones.
+el bucle while es lo mismo que un if solo que pasa
+preguntando todo el tiempo, solo que se repiten constantemente
+while (true) {} son bucles infinitos
+do while priemor ejecuta el codigo y luego pregunta si la
+condición es verdadera
+semtencia break ==> esta es una sentencia que hace que el bucle se 
+termine, hay dos formas de utilizar el break, uno es con una sencencia 
+if dentro del bucle, y otro con el break dentro del if en el bucle
+FOR ==> es identico al bucle while, solo que el for es un bucle determinado
+a este bucle le vasmos a decir las veces en las que va a repetir la acción

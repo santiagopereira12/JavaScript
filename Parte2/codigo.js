@@ -23,3 +23,33 @@ let referencia = `La marca del dispositivo es: <b>${marca}</b> <br>
                   La memoria es de: <b>${espacio}</b> <br>`;
 
 document.write(referencia);
+
+let numSuma = 1;
+if (numSuma < 15){
+    numSuma++;
+    document.write(numSuma);
+    document.write("<br>joputa, severo programador nea<br>");
+}
+
+let sumNumero = 0;
+while (sumNumero < 5){
+    sumNumero++;
+    document.write(sumNumero + "<br>");
+}
+
+do {
+    sumNumero++;
+    document.write(sumNumero + "<br>");
+}
+while (sumNumero < 5);
+
+document.write("<br><b>INICIO DE SENTENCIA BREAK</b><br>");
+let number = 0;
+while(number < 10){
+    number++;
+    document.write(number + "<br>");
+    if (number == 9){
+        break;
+    }
+}
+document.write("Finalizo.");
