@@ -14,3 +14,23 @@ termine, hay dos formas de utilizar el break, uno es con una sencencia
 if dentro del bucle, y otro con el break dentro del if en el bucle
 FOR ==> es identico al bucle while, solo que el for es un bucle determinado
 a este bucle le vasmos a decir las veces en las que va a repetir la acción
+
+for (let i = 0; i < n; i++){
+     alert(i) o document.write(i + "<br>");
+}
+
+la sentencia continue  se utiliza dentro del if y se usa para saltarse 
+un dato en especifico, con la variable definida en el for, por ejemplo
+
+for(let i = 1; i <= 10; i++){
+    if(i == 5){
+       continue;
+    }
+    document.write(i + "<br>");
+}
+
+fir in y for of actuan bajo un Array la diferencia entre estos dos
+es que al momento de trabajar con for in nos devielve a la posición
+de los elementos y for of nos muestra los elementos
+sentencia label ==> es una sentencia que permite la asociación de un bucle
+con un nombre

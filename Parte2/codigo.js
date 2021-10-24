@@ -1,4 +1,3 @@
-
 let Bienvenida = "Seguimos con el curso de javascript. <br>";
 document.write(Bienvenida);
 
@@ -52,4 +51,39 @@ while(number < 10){
         break;
     }
 }
-document.write("Finalizo.");
+document.write("Finalizo. <br>");
+
+for(let i = 1; i <= 10; i++){
+    if(i == 5){
+        continue;
+    }
+    document.write(i + "<br>");
+}
+
+document.write("<br>");
+let mascotas = ["perro", "gato", "hamster", "perico"];
+for(animal in mascotas){
+    document.write(animal + "<br>");
+}
+for(animal of mascotas){
+    document.write(animal + "<br>");
+}
+
+document.write("<br>");
+lista1 = ["Sara", "Shannil", "Tatiana"];
+lista2 = ["Santiago", "Cristian", lista1, "Paula"];
+forTerminar:
+for(let array in lista2){
+    if(array == 2){
+        for(let array of lista1){
+            document.write(array + "<br>");
+            if(array == "Sara"){
+                continue forTerminar;
+            }else{
+                document.write(array + "<br>");
+            }
+        }
+    }else{
+        document.write(lista2[array] + "<br>");
+    }
+}
