@@ -9,4 +9,4 @@ millonario compro una maquina que deja pasar solamente a los mayores de edad
 entre otras cosas...
 
 - Dejar pasar solo a los mayores de edad.
-- La primer persona que entre despues de kas 2 AM, no paga.
+- La primer persona que entre despues de las 2 AM, no paga.
