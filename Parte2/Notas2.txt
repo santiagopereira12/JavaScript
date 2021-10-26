@@ -34,3 +34,19 @@ es que al momento de trabajar con for in nos devielve a la posición
 de los elementos y for of nos muestra los elementos
 sentencia label ==> es una sentencia que permite la asociación de un bucle
 con un nombre
+
+Funciones...
+es una porción de codigo, nos ayuda a la hora de realizar una condición que
+vamos a utilizar varias veces y en vez de escribir toda la condición 
+nuevamente, solo llamamos la función y esta se iniciara
+return ==>  nos devuelve un valor, para que no quede vacio.
+parametros ==> nos ayuda a definir una variagle fuera de la función y así 
+poder utilizar la condicion que se encuentra de la función sin necesidad de 
+escribirla varias veces, por ejemplo
+
+function Adicion(numero1, numero2){
+    resultado = numero1 + numero2;
+    return resultado;
+}
+let respuesta = Adicion(X,X);
+document.write("<br>" + respuesta);

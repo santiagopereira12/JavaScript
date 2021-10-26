@@ -87,3 +87,41 @@ for(let array in lista2){
         document.write(lista2[array] + "<br>");
     }
 }
+
+//funciones
+function Saludar(){
+    let Cristian = prompt("la buena, ¿como te fue hoy?");
+    if(Cristian == "bien"){
+        alert("me alegro mucho");
+    }else{
+        alert("ah bueno pa saber");
+    }
+}
+Saludar();
+
+function Buenas(){
+    alert("sapo perro");
+    return "Caballero";
+}
+let Diaz = Buenas();
+document.write("<br>");
+document.write(Diaz);
+
+function Adicion(numero1, numero2){
+    resultado = numero1 + numero2;
+    return resultado;
+}
+let respuesta = Adicion(52,53);
+document.write("<br>" + respuesta);
+
+function saludarP(nombreP){
+    let Saludo = `<b>¡Holi ${nombreP}, ¿como te fue hoy?!</b>`;
+    document.write("<br>" + Saludo);
+}
+saludarP("Cristian pirobo");
+
+const hablar = function(padre){
+    let hola = `<b>Hola ${padre}, ¿como estas?</b>`;
+    document.write("<br>" + hola);
+}
+hablar("betico");
