@@ -70,7 +70,7 @@ for(animal of mascotas){
 }
 
 document.write("<br>");
-lista1 = ["Sara", "Shannil", "Tatiana"];
+lista1 = ["Sara", "Shannill", "Tatiana"];
 lista2 = ["Santiago", "Cristian", lista1, "Paula"];
 forTerminar:
 for(let array in lista2){
