@@ -77,5 +77,5 @@ if (dineroSantiago >= 600 && dineroSantiago < 1000){
 }
 
 alert(`Cofla te sobran ${dineroCofla} pesos`);
-alert(`Cristian te sobrtan ${dineroCristian} pesos`);
+alert(`Cristian te sobran ${dineroCristian} pesos`);
 alert(`Santiago te sobran ${dineroSantiago} pesos`);
