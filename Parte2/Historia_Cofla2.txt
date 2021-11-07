@@ -29,3 +29,12 @@ y ausentes(A) en clase.
 (Numero total de presentes y ausentes).
 - se puede tener un maximo de 10% de ausencia por semestre, si se tienen más
 aclarar que perdieron el semestre.
+
+
+Historia de cofla 3.
+Cofla feliz por haber empezado las clases volvio a su casa y ya tiene tarea 
+básica de cálculo, tiene que hacer un par de ejercicios de matemáticas que
+incluyen suma, resta, división y multiplicación, realizar esto con una calculadora
+puede ser mucho mas efectivo...
+
+- crear calculadora que nos simplifique el trabajo.
