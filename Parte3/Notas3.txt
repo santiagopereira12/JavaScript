@@ -1,0 +1,26 @@
+Programación orientada a objetos(POO).
+Es un paradigma que nos ayuda a la optimización del codigo logrando crear
+objetos como si los estuvieramos realizando en la vida real.
+
+paradigma...
+es la forma de crear un una solución de problemas.
+
+clase...
+es una plantilla que creamos para así poder crear objetos.
+
+objeto... 
+son aquellos resultados de las clases.
+
+atributo...
+son las caracteristicas que tienen los objetos.
+
+metodo...
+es aquello que puede realizar el objeto deacuerdo a sus atrubutos
+
+contructor...
+son particularidades de las clases , es una función obligatoria de estas y 
+este nos va a construir las particularidades del objeto.
+
+instanciación...
+es la finalizacion de la clase, es cuando podemos decir que la clase esta 
+instanciada. 
