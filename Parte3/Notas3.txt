@@ -24,3 +24,30 @@ este nos va a construir las particularidades del objeto.
 instanciación...
 es la finalizacion de la clase, es cuando podemos decir que la clase esta 
 instanciada. 
+
+Caracteristicas de la programación orientada a objetos(POO).
+abstracción...
+es intentar reducir la complejidad del objeto, rfeduciendo los
+metodos.
+
+modularidad...
+capacidad de solucionar un problema grande por partes.
+
+encapsulamiento...
+hacen que todos los datos sean privados...
+
+polimorfismo...
+conciste en como un objeto se comporta deacuerdo a sus propiedades
+en cada metodo.
+
+Otros conceptos de programación orientada a objetos(POO).
+Herencia...
+puede hacer todo lo de la clase y aparte puede agregarlo cosa nuevas
+(¡NO SE PUEDE TENER UN OBJETO CON EL MISMO NOMBRE DE LA CLASE!).
+
+metodo estaticos...
+es un metodo que no necesita que la clase se defina para ser creado.
+
+metodos accesores(getters, setters)...
+los getters son para optener un valor, los setters son para modificarlo
+o definirlo.
