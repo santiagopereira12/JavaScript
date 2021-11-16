@@ -11,3 +11,26 @@ comportamientos de cada uno para poder comprarlos, ahí entramos nosotros.
 -Cadas celular debe tener color, peso, resolución de pantalla, resolución de camara
 y memoria ram.
 -Cada celular debe poder prender, reiniciar,apagar,tomar fotos y grabar.
+
+
+Cofla no esa satisfecho con lo scelulares así que decide ir a la sección de alta gama,
+donde va a poder encontrar los celulares más caros del lugar así que al entrar vio dos
+celulares que le encantaron, estos 2 celulares de dalta gama pueden hacer todo lo que
+podian hacer los 3 anteriores pero tienen mejores caracteristicas y además pueden 
+grabar en camara super lenta, tiene reconocimiento facial y una camarta extra.
+
+-Implementar todas estas cualidades en los celulares de alta gama
+
+
+Cofla ya tiene un nuevo celular y ahora esta mirando las aplicaciones del play store
+ya que quiere jugar juegos que sean muy sean muy pupulares, que tengan buena puntuación
+y que pesen poco, pero las 7 apps que llamaron su atención son un tanto similares
+y sabe que si se descarga todas, probablemente juegue con todas, pero el se va 
+a descargar 2 para no tener perdidas innecesarias de tiempo jugando con su celular,pero
+el problema viene cuando no puede decidirse cual de todas estas aplicaciones es la que
+va a descargar.
+
+-Crear un sistema que ayude a decidir cual app descargar.
+-La informacion de los instaladores debe contener la cantidad de descargas, la puntuación
+y el peso.
+-Las apps se deben instalar, abrir, cerrar y desinstalar.
