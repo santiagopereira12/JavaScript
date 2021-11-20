@@ -35,6 +35,7 @@ split()...
 Divide la cadena como le pidamos.
 
 substring()...
+Nos retorna un pedazo de la cadena que seleccionemos.
 
 tolowerCase()...
 Convierte una cadena a minusculas.
@@ -43,12 +44,50 @@ toUpperCase()...
 Convierte un acadena a mayusculas.
 
 toString()...
+Metodo devuelve una cadena que representa al objeto especificado.
 
 trim()...
+Elimina los espacios en blanco al principio y al final de una cadena.
 
 trimEnd()...
+Elimina los espacios en blanco al final de una cadena.
 
 trimStart()...
+Elimina los espacios en blanco al comienzo de una cadena.
 
 valueOf()...
-Retorna el valo primitivo de un objeto string.
+Retorna el valor primitivo de un objeto string.
+
+Metodos de Arrays.
+pop()...
+Elimina el ultimo elemento de un array y lo devuelve.
+
+shift()...
+Elimina el primer elemento de un array y lo devuelve.
+
+push()...
+Agrega un elemento al array al final de la lista.
+
+reverse()...
+Invierte el orden de los elementos de un array al final d ela lista.
+
+unshift()...
+Agrega uno o mas elementos al inicio del array, y lo devuelve la nueva longitud del
+array.
+
+sort()...
+Ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado.
+
+splice()...
+Cambia el contenido de un array eliminando elementos existente y/o agregando nuevos
+elementos.
+
+(accesores)
+join()...
+Une todos los elementos de una matriz (u objeto similar) en una cadena y la devuelve.
+
+slice()...
+Devuelve una parte del array dentro de un nuevo array empezando por inicio hasta fin
+(fin no incluido).
+
+Algunos metodos de cadena ya vistos: toString(), indexof(), lastindexof(), includes().
