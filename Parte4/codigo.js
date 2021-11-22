@@ -97,6 +97,16 @@ document.write(cosas +"<br>");
 let duplicado = cosas.join("<br>Elemeto: ");
 //slice().
 let mostar = cosas.slice(1,3);
+//filter().
+document.write("<br>");
+let filtros = ["mesa","silla","sofa","tabla","cojin"];
+solucion = filtros.filter(filtro => filtro.length > 4);
+document.write(solucion +"<br>");
+//foreach().
+filtros.forEach(function(separacion){
+    document.write(separacion +"<br>");
+});
+document.write("<br>");
 
 //mostrar en pantalla METODOS DE ARRAYS.
 document.write(respuesta +"<br>");
@@ -108,3 +118,66 @@ document.write(ordenar +"<br>");
 document.write(comunismo +"<br>");
 document.write("Elemento. " +duplicado +"<br>");
 document.write(mostar +"<br>");
+document.write("<br>");
+
+//Objeto Math(Basico).
+//sqrt().
+let a = Math.sqrt(25);
+//cbrt().
+let b = Math.cbrt(25);
+//max().
+let c = Math.max(20,21,52,53);
+//min().
+let d = Math.min(20,21,52,53);
+//random().
+let e = Math.random()*100;
+e = e.toString();
+erdm = e[0] + e[1];
+if(e[1] == "."){
+    erdm = e[0];
+}
+//round().
+let f = Math.random()*100;
+f = Math.round(f);
+//fround().
+let g = Math.fround(34.7);
+//floor().
+let h = Math.random()*99;
+h = Math.floor(h+1);
+//PI.
+let i = Math.PI;
+//SQRT1_2.
+let j = Math.SQRT1_2;
+//SQRT2.
+let k = Math.SQRT2;
+//E.
+let l = Math.E;
+//LN2.
+let m = Math.LN2;
+//LN10.
+let n = Math.LN10;
+//LOG2E.
+let ñ = Math.LOG2E;
+//LOG10E.
+let o = Math.LOG10E;
+//trunc().
+let q = Math.trunc(50.3895);
+
+//mostrar en pantalla OBJETO MATH.
+document.write(a +"<br>");
+document.write(b +"<br>");
+document.write(c +"<br>");
+document.write(d +"<br>");
+document.write(erdm +"<br>");
+document.write(f +"<br>");
+document.write(g +"<br>");
+document.write(h +"<br>");
+document.write(i +"<br>");
+document.write(j +"<br>");
+document.write(k +"<br>");
+document.write(l +"<br>");
+document.write(m +"<br>");
+document.write(n +"<br>");
+document.write(ñ +"<br>");
+document.write(o +"<br>");
+document.write(q +"<br>");

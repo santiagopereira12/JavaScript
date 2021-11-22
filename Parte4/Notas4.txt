@@ -91,3 +91,68 @@ Devuelve una parte del array dentro de un nuevo array empezando por inicio hasta
 (fin no incluido).
 
 Algunos metodos de cadena ya vistos: toString(), indexof(), lastindexof(), includes().
+
+(de repetición)
+filter()...
+Crea un nuevo array con todos los elementos que cumplan la condición.
+
+forEach()...
+Ejecuta la función indicada una vez por cada elemento.
+
+Objeto Math.
+(metodos)
+sqrt()...
+Devuelve la raiz cuadrada positiva de un munero.
+
+cbrt()...
+Devuelve la raiz cubica de un numero.
+
+max()...
+Devuelve el mayor de cero o mas numeros.
+
+min()...
+Devuelve el mas pequeño de cero o mas numeros.
+
+random()...
+Devuelve un numero pseudo-aleatoreo entre 0 y 1.
+
+round()...
+Devuelve el valor de un numero redondeando al numero entero mas cercano.
+
+fround()...
+Devuelve la representacion flotante de presicion simple mas cercana de un numero.
+
+floor()...
+Devuelve el mayor entero menor que o igual a un numero.
+
+trunc()...
+Devuelve la parte entera del numero x, la eliminacion de los digitos fraccionarios.
+
+
+(propiedades)
+PI...
+Radio de la circunferencia de un circulo respecto a su diametro, aproximadamente
+3.14159.
+
+SQRT1_2...
+Raiz cuadrada de 1/2; equivalentemente, 1 sobre la raiz cuadrada d e2, aproximadamente
+0.707.
+ 
+SQRT2...
+Raiz cuadrada de 2, aproximadamente 1.414.
+
+
+E...
+Constante de Euler, la base de los logaritmos naturales
+
+LN2...
+Logaritmo natural de 2, aproximadamente 0.693.
+
+LN10...
+Logaritmo natural de 10, aproximadamente 2.303.
+
+LOG2E...
+Logaritmo de E con base 2, aproximadamente 1.443.
+
+LOG10E...
+Logaritmo de E con base 10, aproximadasmente 0.434.
