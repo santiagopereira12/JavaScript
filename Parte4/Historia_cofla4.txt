@@ -1,0 +1,17 @@
+Historia de Cofla.
+Cofla ya esta terminando el primer semestre del ciclo, la tarea que debe realizar es
+mucho mas avanzada dee la que tenia antes, ademas de suma, resta, multiplicacion
+y division ahora tambien necesita calcular potencias, raices cuadradas y cubicas.
+
+-Perfeccionar calculadora para poder implementar las nuevas funciones.
+
+
+la facultad de cofla está por comenzar y ya las 12 materias dfe la carrera tienen
+asignado un profesor y todos los alumnos que se anotaron en dichas clases, pero
+ver esto mas ordenadamente.
+
+-Crear una función que al pasarle como parametrola matria nos devuelva:
+           *profesor asignado.
+           *el nombre de todos los alumnos. 
+-Crear funcion que nos diga en cuantas clases esta cofla.
+-Nombrar las clases en las que esta y los profesores de cada una.
