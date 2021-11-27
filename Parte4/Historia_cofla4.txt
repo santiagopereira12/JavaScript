@@ -15,3 +15,11 @@ ver esto mas ordenadamente.
            *el nombre de todos los alumnos. 
 -Crear funcion que nos diga en cuantas clases esta cofla.
 -Nombrar las clases en las que esta y los profesores de cada una.
+
+
+Cofla ya vio las 12 materias y se decidio en cual se va a inscribir así que en tres
+días lo hara, el problema es que se rompio el sistema de inscripciones.
+
+-Crear una funcion para preguntarle a cofla en que materia se quiere inscribir.
+-Si ya hay 20 alumnos en la materia negarle la inscipción.
+-si hay menos de 20 alumnos inscribir a cofla y añadirlo a la lista de alumnos.
