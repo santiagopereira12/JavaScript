@@ -1,0 +1,66 @@
+Console (consola de Javascript).
+Provee acceso a la consola de depuración de los navegadores (e.j., la Consola Web en Firefox).
+
+
+Metodos de registro en console.
+Assert()...
+Aparece un mensaje de error en la consola si la afirmacion es falsa, si la afirmacion es
+verdadera, no aparece nada (NO ESTANDAR).
+
+Clear()...
+Limpia la consola.
+
+Error()...
+Muestra un mensaje de error en la consola web.
+
+Info()...
+Emite un mensaje informativo a la consola web, en firefox y chrome, se muestra un pequeño
+icono "i" junto a estos elementos en el registro de la consola web.
+
+Log()...
+Muestra un mensaje en la consola web (o del interprete Javascript).
+
+Table()...
+Esta funcion toma un argumento obligatorio: 
+data, que debe ser un array o un objeto, y un parametro adicional: columns, y nos muestra una 
+tabla en consola.
+
+Warn()... 
+Imprime un mensaje de advertencia en la consola web.
+
+Dir()...
+Despliega una lista interactiva de las propiedades del objeto Javascript especificado.
+(NO ESTANDAR).
+
+
+Metodos de conteo en console.
+Count()...
+Registra el numero de veces que se llama a count(). esta funcion toma como argumento opcional
+una etiqueta.
+
+CountReset()...
+Resetea el contador console.count().
+
+
+Metodos de agrupacion en console.
+Group()...
+Crea un nuevo frupo en linea en el registro de la consola web.
+
+GroupEnd()...
+Remueve un grupo en linea en el registro de la consola web.
+
+GroupCollapsed()...
+Crea un grupo en linea pero contraido, el usuario debe expandirlo para verlo.
+
+
+Metodos de temporizacion en console.
+Time()...
+Inicia un temporizador.
+
+TimeEnd()...
+Registra el valor actual de un temporizado.
+
+TimeLog()...
+Detiene un temporizador.
+
+Modificar estilo de texto.
