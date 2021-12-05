@@ -1,0 +1,27 @@
+El DOM(Document Object Model).
+
+Metodos de seleccion de elementos.
+
+Metodos de atributos de un elemento.
+
+Atributos globales.
+
+Atributos de input.
+
+Propiedad style
+
+Clases, classlist, y sus metodos.
+
+Obtencion y modificacion de elementos.
+
+Creacion de elementos.
+
+Obtencion y modificacion de childs.
+
+Metodos de childs(Hijos).
+
+Propiedades de parents(Padres).
+
+Propiedades de siblings(Hermanos).
+
+Nodos, una propiedad extra.
