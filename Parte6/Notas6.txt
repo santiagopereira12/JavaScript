@@ -1,8 +1,34 @@
 El DOM(Document Object Model).
+Es una interfaz que co ntiene todos los conceptos estandares que permite representar un
+documeto html, xml o xhtml.
+
+Nodo...
+Es cualquier etiqueta del del cuerpo, como un parrafo, el mismo body o incluso las etiquetas
+de una lista.
+-Document --> es el nodo raiz, a partir del cual derivan el resto de nodos.
+-Element --> nodos definidos por etiquetas html.
+-Text --> el texto dentro de un nodo element se considera un nuevo nodo hijo de tipo text(texto).
+-Attribute --> los atributosa de las etiquetas definien nodos,
+(en Javascript no se ven como nodos sino com informacion asociada al nodo de tipo element).
+-Comentarios y otros --> lso comentarios y otos elementos como las declaraciones doctype en
+cabecera de los documentos HTML generan nodos.
+
 
 Metodos de seleccion de elementos.
+-getElementById() --> Seleciona un elemento por ID.
+-getElementsByTagName() --> Selecciona todos los elementos que coincidan con el nombre de la
+etiqueta especificada.
+-querySelector() --> Devuelve el primer elemento que coincida con el grupo especificado
+de selectores.
+-querySelectorAll() --> Devuelve todos los elementos que coincidan con el grupo especificado
+de selectores.
+
 
 Metodos de atributos de un elemento.
+-setAttribute() --> Modifica el valor de un atributo.
+-getAttribute() --> Obtiene el valor de un atributo.
+-removeAttribute() --> Remueve el valor de un atributo.
+
 
 Atributos globales.
 
