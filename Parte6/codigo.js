@@ -20,3 +20,10 @@ document.write(valorAtribut);
 
 //Atributos globales.
 const prueba = document.querySelector(".prueba");
+prueba.setAttribute("contentEditable","true");
+prueba.setAttribute("dir","rtl");
+prueba.removeAttribute("hidden");
+const seleccion = document.querySelector(".seleccion");
+seleccion.setAttribute("tabindex","0");
+const eva = document.querySelector(".eva");
+eva.setAttribute("title","sapo");

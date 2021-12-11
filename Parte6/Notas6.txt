@@ -42,8 +42,17 @@ Atributos globales.
 
 
 Atributos de input.
+-className
+-value
+-type
+-accept
+-form
+-minlenght
+-placeholder
+-required
 
-Propiedad style
+
+Propiedad style.
 
 Clases, classlist, y sus metodos.
 
