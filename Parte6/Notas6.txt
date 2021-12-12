@@ -53,6 +53,8 @@ Atributos de input.
 
 
 Propiedad style.
+Nos permite modificar algo del CSS del Atriuto.
+
 
 Clases, classlist, y sus metodos.
 
