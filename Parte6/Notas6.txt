@@ -57,12 +57,37 @@ Nos permite modificar algo del CSS del Atriuto.
 
 
 Clases, classlist, y sus metodos.
+-add() --> Añade una clase.
+-remove() --> Remueve una clase.
+-item() --> Devuelve la clase del indice especificado.
+-contains() --> Verifica si ese elemento posee o no, la clase especificada.
+-replace() --> Reemplaza una clase por otra.
+-toggle() --> Si no tiene la clase especificada, la agrega, si ya la tiene la elimina.
+
 
 Obtencion y modificacion de elementos.
+-textContent --> Devuelve el texto de cualquier nodo.
+-innerText --> Devuelve el texto visible de un node element.
+-outerText --> Devuelve el texto que de las etiquetas HTML incluidas las etiquetas.
+
+-innerHTML --> Devuelve el contenido HTML de un elemento.
+-outerHTML --> Devuelve el codigo HTML completo de un elemento.
+
 
 Creacion de elementos.
+-createElements().
+-appendchild().
+-createDocumentFragment().
+-createTextNode().
+
 
 Obtencion y modificacion de childs.
+-firstChild
+-lastChild
+-firstElementChild
+-lastElementChild
+-childNodes
+-children
 
 Metodos de childs(Hijos).
 

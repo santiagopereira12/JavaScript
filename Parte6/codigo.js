@@ -41,3 +41,51 @@ minimo.required = " ";
 minimo.setAttribute("minLength","5");
 
 //propiedad Style.
+const editar = document.querySelector(".editar");
+editar.style.color = "blue";
+editar.style.backgroundColor = "green";
+editar.style.padding = "30px";
+
+//clases, classlist, metodos de classlist.
+const lista = document.querySelector(".lista");
+lista.classList.add("grande");
+const palabra = document.querySelector(".palabra");
+let valor = palabra.classList.item(3);
+document.write("<br>" +valor);
+palabra.classList.remove("grande");
+let verificar = palabra.classList.contains("grande");
+if(verificar){
+    document.write("<br>la clase existe.<br>");
+}else{
+    document.write("<br>la clase no existe, creela por favor.<br>");
+}
+let cambio = palabra.classList.replace("sapo","hijueputa");
+document.write(cambio +"<br>");
+
+//Obtencion y modificacion de elementos.
+const modificar = document.querySelector(".modificar");
+let suma = modificar.textContent;
+let suma2 = modificar.innerHTML;
+let suma3 = modificar.outerHTML;
+alert(suma);
+alert(suma2);
+alert(suma3);
+
+//Creación de elementos.
+const contenedor = document.querySelector(".contenedor");
+const item = document.createElement("LI");
+const textoDelItem = document.createTextNode("este es un item de la lista");
+item.appendChild(textoDelItem);
+contenedor.appendChild(textoDelItem);
+console.log(item);
+const algoritmo = document.querySelector(".algoritmo");
+const fragmento = document.createDocumentFragment();
+for(i = 0; i < 20; i++){
+    const pseudo = document.createElement("PSEUDO");
+    pseudo.innerHTML = "Este es el pseudocdigo";
+    fragmento.appendChild(pseudo);
+}
+algoritmo.appendChild(fragmento);
+console.log(algoritmo);
+
+//Obtencion y modificacion de childs.
