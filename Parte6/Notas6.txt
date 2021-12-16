@@ -89,10 +89,24 @@ Obtencion y modificacion de childs.
 -childNodes
 -children
 
+
 Metodos de childs(Hijos).
+-replaceChild().
+-removeChilds().
+-hasChildNodes().
+
 
 Propiedades de parents(Padres).
+-parentElement.
+-parentNode.
+
 
 Propiedades de siblings(Hermanos).
+-nextSibling.
+-previousSibling.
+-nextElementSibling.
+-previousElementSibling.
+
 
 Nodos, una propiedad extra.
+-closest().

@@ -89,3 +89,39 @@ algoritmo.appendChild(fragmento);
 console.log(algoritmo);
 
 //Obtencion y modificacion de childs.
+const primogenito = document.querySelector(".primogenito");
+const primerHijo = primogenito.firstChild;
+const primerHijito = primogenito.firstElementChild;
+const hijos = primogenito.childNodes;
+const hijastro = primogenito.children;
+console.log(primerHijo);
+console.log(primerHijito);
+console.log(hijos);
+console.log(hijastro);
+
+//Metodos de child.
+const parrafos = document.createElement("p").innerHTML = "parrafo";
+const h2_nuevo = document.createElement("H2");
+h2_nuevo.innerHTML = "Titulo";
+
+const h2_antiguo = document.querySelector(".h2");
+primogenito.replaceChild(h2_nuevo,h2_antiguo);
+
+let escritura = primogenito.hasChildNodes();
+if(escritura){
+    document.write("El elemento tiene hijos");
+}else{
+    document.write("el elemento no tien hijos");
+}
+
+//Propiedad de parents (padres).
+console.log(h2_nuevo.parentElement);
+
+//Propiedad siblings (hermanos).
+console.log(h2_nuevo.nextSibling);
+console.log(h2_nuevo.nextElementSibling);
+console.log(h2_nuevo.previousElementSibling);
+
+//Nodos una propiedad extra.
+const div = document.querySelector(".div3");
+console.log(div.closest(".div"));
