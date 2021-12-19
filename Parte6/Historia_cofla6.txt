@@ -1,0 +1,14 @@
+Historia de Cofla.
+Cofla se quedo encerrado en su casa porque se le rompio la llave, pero necesita ir urgente porque no
+puede faltar ni una sola veza si quiere aprobar las materias que le faltan, ya que esta al limite de
+asistencias, entonces tiene que llamar un cerrajero y pedirle que traiga la llave indicada, no hay
+tiempo como para que el cerrajero vea cual es la llave indicada, solo puede traer una y probar,
+entonces cofla se da cuenta que es una llave antigua, por ende no hace falta afilarla, solo necesita
+decirle el modelo de la llave para que el cerrajero venga, pero cofla tiene otro problema que no
+tiene internet para poder buscar, lo que si tiene es un programador que hara un sistema para
+mostrarle las llaves posibles y determinar cual es la indicada, hay solo 20 modelos posibles, permitir
+que cofla seleccione el indicado.
+
+-Crear sistema que le muestre a cofla las llaves posibles, con sus 4 imagenes y cofla puede seleccionar
+cual llave elegir, una vez que cofla selecciono la llave, envia los datos al servidor, otro programador
+se encargara del resto.
