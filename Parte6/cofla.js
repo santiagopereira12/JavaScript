@@ -17,6 +17,7 @@ for (var i = 1; i <= 20; i++){
     let precioRandom = Math.round(Math.random()*10000+300);
     let llave = crearLlave(`llave ${i}`, `modelo ${modeloRandom}`,precioRandom);
     let div = document.createElement("DIV");
+    div.tabIndex = i;
     div.classList.add(`item-${i}`,`flex-item`);
     div.innerHTML = llave[0] + llave[1] + llave[2] + llave[3];
     //contenedor.innerHTML += div;
