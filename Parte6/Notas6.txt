@@ -1,5 +1,5 @@
 El DOM(Document Object Model).
-Es una interfaz que co ntiene todos los conceptos estandares que permite representar un
+Es una interfaz que contiene todos los conceptos estandares que permite representar un
 documeto html, xml o xhtml.
 
 Nodo...

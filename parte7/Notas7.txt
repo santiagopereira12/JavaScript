@@ -1,0 +1,31 @@
+INTRODUCCIÓN A WINDOW
+- Hereda las propiedades de EventTarget
+open() --> carga un recurso en el contexto de un nuevo navegador o uno que ya existe.
+close() --> cierra la ventana actual, o la ventana en la que se llamo.
+closed --> indica si la ventana referenciadaesta cerrada o no.
+name --> obtiene/establece el nombre del contexto de la ventana.
+stop() --> detiene la carga de recursos en el contexto de navegación actuial.
+alert() --> muestra un cuadro de alerta con el contenido especificado y un boton aceptar.
+print() --> abre el cuadro de dialogo imprimir para imprimir el documentos actual.
+prompt() --> abre un cuadro de  dialogo con un mensaje que solicita al usuario un dato(string)
+confirm() --> abre un cuadro de dialogo con un mensaje y dos botones: aceptar y cancelar.
+
+screen --> devueleve una referencia al objeto de pántalla asociado con la ventana.
+screenleft --> devuelve la distacia horizontal entre el borde izquierdo del navegador y el borde izquierdo de la pantalla
+screentop --> devuelve la distacia vertical entre el borde superior del navegador y el borde superior de la pantalla.
+scrollx --> devuelve el numero de pixeles que el documento se desplaza actualmente horizontalmente.
+scrolly --> devuelve el numero de pixeles que el documento se desplaza actualmente verticalmente.
+scroll() --> desplaza la ventana a un lugar particular en el documento. (con option y con posiciones)
+
+minimize() --> minimiza la ventana.
+resizeBy() --> cambia el tamaño de la ventana actual en una cantidad especifica.
+resizeTo() --> redimensiona dinamicamente la ventana
+moveBy() --> mueve la ventana en una ubicación relativa.
+moveTo() --> mueve la ventana en una ubicacion absoluta.
+
+-Objetos barprop
+	-locationbar
+	-menubar
+	-scrollbars
+	-statusbar
+	-toolbar
